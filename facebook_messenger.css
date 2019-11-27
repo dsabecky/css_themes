@@ -46,16 +46,15 @@ body { color: var(--almost-white) !important; font-family: "ITC Avant Garde Goth
 
 
 /* ########## hotfixes ########## */
-path[fill] { fill: var(--text2) !important; }						/* changes buttons to text2 color */
-g path { fill: var(--text2) !important; }						/* changes various buttons to text2 color */
-._2pgc { border: none; }											/* remove border from sticker searchbox */
-div._3oh- { font-size: 14px !important; }							/* chat bubble font size */
-._4eby { border-radius: 0; }										/* artifacting borders on camera popup window */
-.uiCloseButton { filter: brightness(0) invert(1) !important; }		/* webcam close button correct */
-._b-u, ._b-v { filter: brightness(0) invert(1) !important; }		/* search conversation arrow button */
-._-lj ._4rlt { border: none; }										/* emoji selection border */
-._4_j4 .chatAttachmentShelf { border-top: 1px solid var(--bg1); }	/* attachment border */
-._6zv_._6zv_ { background-color: var(--text2); }					/* unread message bubble */
+path[fill], path[style], g#Page-1 { fill: var(--text2) !important; }	/* changes buttons to text2 color */
+._2pgc { border: none; }												/* remove border from sticker searchbox */
+div._3oh- { font-size: 14px !important; }							    /* chat bubble font size */
+._4eby { border-radius: 0; }										    /* artifacting borders on camera popup window */
+.uiCloseButton { filter: brightness(0) invert(1) !important; }		    /* webcam close button correct */
+._b-u, ._b-v { filter: brightness(0) invert(1) !important; }		    /* search conversation arrow button */
+._-lj ._4rlt { border: none; }										    /* emoji selection border */
+._4_j4 .chatAttachmentShelf { border-top: 1px solid var(--bg1); }	    /* attachment border */
+._6zv_._6zv_ { background-color: var(--text2); }					    /* unread message bubble */
 
 
 /* ########## background ########## */
