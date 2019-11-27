@@ -46,15 +46,15 @@ body { color: var(--almost-white) !important; font-family: "ITC Avant Garde Goth
 
 
 /* ########## hotfixes ########## */
-path[fill], path[style], g#Page-1 { fill: var(--text2) !important; }	/* changes buttons to text2 color */
-._2pgc { border: none; }												/* remove border from sticker searchbox */
-div._3oh- { font-size: 14px !important; }							    /* chat bubble font size */
-._4eby { border-radius: 0; }										    /* artifacting borders on camera popup window */
-.uiCloseButton { filter: brightness(0) invert(1) !important; }		    /* webcam close button correct */
-._b-u, ._b-v { filter: brightness(0) invert(1) !important; }		    /* search conversation arrow button */
-._-lj ._4rlt { border: none; }										    /* emoji selection border */
-._4_j4 .chatAttachmentShelf { border-top: 1px solid var(--bg1); }	    /* attachment border */
-._6zv_._6zv_ { background-color: var(--text2); }					    /* unread message bubble */
+path[fill], path[style], g#Page-1 { fill: var(--text2) !important; }    /* changes buttons to text2 color */
+._2pgc { border: none; }                                                /* remove border from sticker searchbox */
+div._3oh- { font-size: 14px !important; }                               /* chat bubble font size */
+._4eby { border-radius: 0; }                                            /* artifacting borders on camera popup window */
+.uiCloseButton { filter: brightness(0) invert(1) !important; }          /* webcam close button correct */
+._b-u, ._b-v { filter: brightness(0) invert(1) !important; }            /* search conversation arrow button */
+._-lj ._4rlt { border: none; }                                          /* emoji selection border */
+._4_j4 .chatAttachmentShelf { border-top: 1px solid var(--bg1); }       /* attachment border */
+._6zv_._6zv_ { background-color: var(--text2); }                        /* unread message bubble */
 
 
 /* ########## background ########## */
@@ -71,12 +71,12 @@ div._3oh- { font-size: 14px !important; }							    /* chat bubble font size */
 ._hh7, ._hh7:active, ._558b ._54ng, ._53ij, ._3mtr ._4qcs, ._4eby, ._2y8_ { background-color: var(--bg3); }
 
 /* four */
-._hh7[style] { background-color: var(--bg4) !important; }
+._hh7[style$="background-color: rgb(0, 153, 255);"], ._4kf5 { background-color: var(--bg4) !important; }
 
 
 /* ########## text ########## */
 /* one */
-._2v6o, ._1htf, ._3eus, ._7ht_, ._hh7, ._nd_ ._hh7, ._2i-c ._54nf ._54nh, ._58al, ._1n-e, ._67tw, ._5i_d .__6l, ._364g, ._3q34  { color: var(--text1); }
+._2v6o, ._1htf, ._3eus, ._7ht_, ._hh7, ._nd_ ._hh7, ._2i-c ._54nf ._54nh, ._58al, ._1n-e, ._67tw, ._5i_d .__6l, ._364g, ._3q34, ._4kf5  { color: var(--text1); }
 ::placeholder { color: var(--text1) !important; }
 ._kmc._7kpg ._1p1t { -webkit-text-fill-color: var(--text1); }
 
