@@ -40,7 +40,7 @@
 
 
 /* ########## global ########## */
-body { color: var(--almost-white) !important; font-family: "ITC Avant Garde Gothic Std", "Century Gothic", "Ubuntu" !important; }
+body { color: var(--almost-white) !important; font-family: "ITC Avant Garde Gothic Std", "Century Gothic", "Ubuntu", "Sans" !important; }
 ::selection { color: var(--bg2); background: var(--text3) !important; }
 ::-moz-selection { color: var(--bg2); background: var(--text3) !important; }
 
